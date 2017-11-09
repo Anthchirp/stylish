@@ -8,10 +8,12 @@
 
   .ghx-issue { border: 1px solid black; border-radius: 0 3px 3px 0; border-left: 0; }
   .ghx-issue .ghx-issue-content { min-height: 0; padding-left: 13px; padding-bottom: 5px; padding-top: 7px}
-  .ghx-issue .ghx-flags { display: none; }
+  .ghx-issue .ghx-flags { display: none; left: auto; right: 47px; top: 7px; }
   .ghx-issue .ghx-type { display: none; }
   .ghx-issue .ghx-days { z-index: 100; }
   .ghx-issue.ghx-done .ghx-key a { text-decoration: none }
+  .ghx-issue.ghx-flagged { background-color: #ffeeee; }
+  .ghx-issue.ghx-flagged .ghx-flags { display: block; }
   .ghx-issue-fields .ghx-summary .ghx-inner { overflow: visible; }
   .ghx-column-headers .ghx-column:nth-child(1) { border-color: blue; }
   .ghx-column-headers .ghx-column:nth-child(2) { border-color: yellow; }

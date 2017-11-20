@@ -28,4 +28,6 @@
   .ghx-columns .ghx-column:nth-child(2) { background-color: #FFD; }
   .ghx-columns .ghx-column:nth-child(3) { background-color: #EFD; }
   .ghx-columns .ghx-column:nth-child(4) { background-color: #DFD; }
+
+  .js-kanplan-enable-inline-dialog { display: none !important; }
 }

@@ -1,6 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("http://jira.diamond.ac.uk/secure/RapidBoard.jspa?rapidView=2007") {
+@-moz-document
+     url-prefix("https://jira.diamond.ac.uk/secure/RapidBoard.jspa?rapidView=2007")
+     url-prefix("http://jira.diamond.ac.uk/secure/RapidBoard.jspa?rapidView=2007") {
   #ghx-header { background: url("https://raw.githubusercontent.com/Anthchirp/stylish/master/tree.jpg") left bottom no-repeat; padding-left: 90px; background-size: 74px 80px; }
   #ghx-board-name,.subnavigator-title { color: transparent; }
   .subnavigator-title::before { content: "Scisoft MX team status"; color: black; }

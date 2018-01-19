@@ -1,6 +1,6 @@
 #ghx-header { background: url("https://raw.githubusercontent.com/Anthchirp/stylish/master/tree.jpg") left bottom no-repeat; padding-left: 90px; background-size: 74px 80px; }
 #ghx-board-name,.subnavigator-title { color: transparent; }
-.subnavigator-title::before { content: "Scisoft MX team status"; color: black; }
+.subnavigator-title::before { content: "This is proof that the custom Javascript JIRA add on works"; color: red; }
 #ghx-release { display: none; }
 
 .ghx-issue { border: 1px solid black; border-radius: 0 3px 3px 0; border-left: 0; }
